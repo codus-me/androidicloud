@@ -1,4 +1,4 @@
-package me.codus.androidicloud;
+package me.codus.icloudandroid;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -7,7 +7,6 @@ import android.support.test.runner.AndroidJUnit4;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import static junit.framework.Assert.assertEquals;
 import static org.junit.Assert.*;
 
 /**
@@ -22,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("me.codus.androidicloud", appContext.getPackageName());
+        assertEquals("me.codus.icloudandroid", appContext.getPackageName());
     }
 }

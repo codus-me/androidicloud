@@ -1,8 +1,7 @@
-package me.codus.androidicloud;
+package me.codus.icloudandroid;
 
 import org.junit.Test;
 
-import static junit.framework.Assert.assertEquals;
 import static org.junit.Assert.*;
 
 /**

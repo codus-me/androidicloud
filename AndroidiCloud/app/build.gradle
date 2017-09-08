@@ -1,4 +1,14 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
+
+publish {
+    userOrg = 'codusme'
+    artifactId = 'androidicloud'
+    groupId = 'codusme'
+    publishVersion = '0.0.1'
+    desc = 'An Android + iCloud wrapper to access contact data.'
+    website = 'https://github.com/codus-me/androidicloud'
+}
 
 android {
     compileSdkVersion 26
@@ -24,6 +34,8 @@ android {
         abortOnError false
     }
 }
+
+apply plugin: 'com.github.dcendents.android-maven'
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
