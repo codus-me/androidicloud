@@ -7,8 +7,12 @@ Authentication is as simple as passing your username and password to the ``Andro
 
     AndroidiCloudService icloud = new AndroidiCloudService("{example@icloud.com}", "{Your Password}");
 
+Remember to call in background mode (thread/async task).
+
 # Contacts
 
-You can access your iCloud contacts/address book through the ``contacts`` property:
+You can access your iCloud contacts/address book through the ``contacts`` method:
 
     JSONArray contacts = icloud.contacts().all();
+    
+Remember to call in background mode (thread/async task).
